@@ -122,7 +122,7 @@ VAR i: INTEGER;
   ok: BOOLEAN;
 BEGIN
   ok := TRUE;
-  font := G.LoadFont("data/graph/font.png", 8, 16);
+  font := G.LoadFont("data/images/font.bmp", 8, 16);
   IF font = NIL THEN
     Out.String("Could not load font."); Out.Ln;
     ok := FALSE
